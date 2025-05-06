@@ -7,6 +7,17 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#etusivu">Etusivu</a></li>
+        <li><a href="#projektit">Projektit</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+      </ul>
+    </nav>
+  </header>
+  
   <div class="logo">
     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
       <text x="15" y="70" font-family="Georgia, serif" font-size="70" font-weight="bold">H</text>
@@ -15,20 +26,36 @@
   </div>
 
   <main>
-    <h1 class="reveal">Henri Schlupp</h1>
-    <p class="reveal">As of spring 2025 I am studying Business Information Technology at Haaga-Helia University of Applied Sciences, specializing in software development. I also have a small background in mechanical engineering studies from Metropolia University of Applied Sciences. My goal is to deepen my expertise in software development and graduate by 2028, with a particular interest in exploring AI and potentially also cybersecurity.</p>
-
-    <nav>
+    <section id="etusivu">
+      <h1 class="reveal">Henri Schlupp</h1>
+      <p class="reveal">
+        As of spring 2025 I am studying Business Information Technology at Haaga-Helia University of Applied Sciences...
+      </p>
+    </section>
+  
+    <section id="projektit">
+      <h2>Projektit</h2>
+      <nav>
+        <a href="projects.html">Projects</a>
+      </nav>
+    </section>
+  
+    <section id="cv">
+      <h2>CV</h2>
       <a href="cv-fi.pdf" target="_blank">My (Finnish) CV</a>
-      <a href="projects.html">Projects</a>
+    </section>
+  
+    <section id="yhteystiedot">
+      <h2>Yhteystiedot</h2>
       <a href="contact.html">Contact</a>
-    </nav>
-
+      <p><a href="https://www.linkedin.com/in/henrischlupp/" target="_blank">My LinkedIn</a></p>
+    </section>
+  
     <footer>
       <p>Henri Schlupp 2025 (Work in progress)</p>
-      <p><a href="https://www.linkedin.com/in/henrischlupp/" target="_blank">My LinkedIn</a></p>
     </footer>
   </main>
+  
 
   <script src="script.js"></script>
 </body>
